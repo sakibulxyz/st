@@ -114,51 +114,30 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-		/* 8 normal colors */
-	"#313539", /* black   */
-	"#b02626", /* red     */
-	"#40a62f", /* green   */
-	"#f2e635", /* yellow  */
-	"#314ad0", /* blue    */
-	"#b30ad0", /* magenta */
-	"#32d0fc", /* cyan    */
-	"#acadb1", /* white   */
+	/* drakula color sceme */
+	"#000000",  /* black */
+	"#ff5555",  /* red */
+	"#50fa7b",  /* green */
+	"#f1fa8c",  /* yellow */
+	"#caa9fa",  /* blue */
+	"#ff79c6",  /* magenta */
+	"#8be9fd",  /* cyan */
+	"#bfbfbf",  /* white */
+	"#575b70",  /* black */
+	"#ff6e67",  /* red */
+	"#5af78e",  /* green */
+	"#f4f99d",  /* yellow */
+	"#caa9fa",  /* blue */
+	"#ff92d0",  /* magenta */
+	"#9aedfe",  /* cyan */
+	"#e6e6e6",  /* white */
 
-	/* 8 bright colors */
-	"#676f78", /* black   */
-	"#b55454", /* red     */
-	"#78a670", /* green   */
-	"#faf380", /* yellow  */
-	"#707fd0", /* blue    */
-	"#c583d0", /* magenta */
-	"#8adaf1", /* cyan    */
-	"#e0e3e7", /* white   */
-
-	/* "#282828", /1* hard contrast: #1d2021 / soft contrast: #32302f *1/ */
-	/* "#cc241d", */
-	/* "#98971a", */
-	/* "#d79921", */
-	/* "#458588", */
-	/* "#b16286", */
-	/* "#689d6a", */
-	/* "#a89984", */
-	/* "#928374", */
-	/* "#fb4934", */
-	/* "#b8bb26", */
-	/* "#fabd2f", */
-	/* "#83a598", */
-	/* "#d3869b", */
-	/* "#8ec07c", */
-	/* "#ebdbb2", */
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	/* "#282828", /1* 258 -> bg *1/ */
-	/* "#ebdbb2", /1* 259 -> fg *1/ */
-	/* "#000003", /*Backgtound *1/ */
-	"#191919", /* background */
-	"#d8dee9", /* foreground */
+	"#000000", /* background */
+    "#f8f8f2", /* foreground */
 };
 
 
