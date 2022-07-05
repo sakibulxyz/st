@@ -6,7 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Jetbrains mono:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
+static char *font2[] = { "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true",
+						 "Mitra Mono:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 5;
 
 /*
@@ -155,8 +156,8 @@ static const char *colorname[] = {
 	"#555555", /* 257 -> rev cursor*/
 	/* "#282828", /1* 258 -> bg *1/ */
 	/* "#ebdbb2", /1* 259 -> fg *1/ */
-	"#000003", /*Backgtound */
-	/* "#191919", /1* background *1/ */
+	/* "#000003", /*Backgtound *1/ */
+	"#191919", /* background */
 	"#d8dee9", /* foreground */
 };
 
